@@ -1,5 +1,5 @@
 import React from "react";
-import SelectedCard from "../../../../ui/selectedCard";
+import SelectedCard from "../../../../ui/AllSelectedCard";
 
 const SelectedPlayers = ({
   selectedPlayers,
