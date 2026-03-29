@@ -1,31 +1,39 @@
+import { Suspense, useState } from "react";
 import "./App.css";
+import Banner from "./components/homepage/banner/Banner";
+import Players from "./components/homepage/players/Players";
+import Navbar from "./components/navbar/Navbar";
+import { ToastContainer } from "react-toastify";
+
+const fetchPlayer = async () => {
+  const res = await fetch("/data.json");
+  return res.json();
+};
 
 function App() {
+  const playersPromise = fetchPlayer();
+  const [coin, setCoin] = useState(50000);
+
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm">
-        <div className="flex-1">
-          <a className="btn btn-ghost text-xl">daisyUI</a>
-        </div>
-        <div className="flex-none">
-          <button className="btn btn-square btn-ghost">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              className="inline-block h-5 w-5 stroke-current"
-            >
-              {" "}
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
-              ></path>{" "}
-            </svg>
-          </button>
-        </div>
-      </div>
+      <Navbar coin={coin} />
+      <Banner />
+      <Suspense
+        fallback={
+          <div className="flex justify-center items-center h-125">
+            <span className="loading loading-dots loading-xl"></span>
+          </div>
+        }
+      >
+        <Players
+          playersPromise={playersPromise}
+          setCoin={setCoin}
+          coin={coin}
+        />
+      </Suspense>
+
+      {/* React Toastify */}
+      <ToastContainer />
     </>
   );
 }

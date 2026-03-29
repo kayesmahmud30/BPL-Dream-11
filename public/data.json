@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "type": "Batsman",
+    "rating": 92,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "price": 1200,
+    "playerImg": "https://c.ndtvimg.com/2021-11/lakcsrag_babar-azam_625x300_14_November_21.jpg"
+  },
+  {
+    "name": "Joe Root",
+    "country": "England",
+    "type": "Batsman",
+    "rating": 90,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "price": 115,
+    "playerImg": "https://c.ndtvimg.com/2021-11/lakcsrag_babar-azam_625x300_14_November_21.jpg"
+  },
+  {
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "type": "Batsman",
+    "rating": 91,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "price": 1150,
+    "playerImg": "https://c.ndtvimg.com/2021-11/lakcsrag_babar-azam_625x300_14_November_21.jpg"
+  },
+  {
+    "name": "Ben Stokes",
+    "country": "England",
+    "type": "All-rounder",
+    "rating": 89,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1200050,
+    "playerImg": "https://c.ndtvimg.com/2021-11/lakcsrag_babar-azam_625x300_14_November_21.jpg"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "type": "Bowler",
+    "rating": 93,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1309,
+    "playerImg": "https://c.ndtvimg.com/2021-11/lakcsrag_babar-azam_625x300_14_November_21.jpg"
+  },
+  {
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "type": "Bowler",
+    "rating": 90,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "price": 1200,
+    "playerImg": "https://c.ndtvimg.com/2021-11/lakcsrag_babar-azam_625x300_14_November_21.jpg"
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "type": "All-rounder",
+    "rating": 91,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 1160,
+    "playerImg": "https://c.ndtvimg.com/2021-11/lakcsrag_babar-azam_625x300_14_November_21.jpg"
+  },
+  {
+    "name": "David Warner",
+    "country": "Australia",
+    "type": "Batsman",
+    "rating": 88,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "price": 1100,
+    "playerImg": "https://c.ndtvimg.com/2021-11/lakcsrag_babar-azam_625x300_14_November_21.jpg"
+  }
+]
